@@ -3,7 +3,7 @@ import pygame
 
 class Ship:
 
-    def __init__(self,ai_settings, screen):
+    def __init__(self, ai_settings, screen):
         """Инициализирует корабль и задает его начальную позицию."""
         self.screen = screen
         self.image = pygame.image.load('images/ship.bmp')
